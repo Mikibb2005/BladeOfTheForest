@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/BladeForest.dir/src/main.cpp.o -o BladeForest  /usr/lib/x86_64-linux-gnu/libSDL2.so 
