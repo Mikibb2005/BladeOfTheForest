@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named BladeForest
+# Target rules for targets named BladeOfTheForest
 
 # Build rule for target.
-BladeForest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BladeForest
-.PHONY : BladeForest
+BladeOfTheForest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BladeOfTheForest
+.PHONY : BladeOfTheForest
 
 # fast build rule for target.
-BladeForest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BladeForest.dir/build.make CMakeFiles/BladeForest.dir/build
-.PHONY : BladeForest/fast
+BladeOfTheForest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BladeOfTheForest.dir/build.make CMakeFiles/BladeOfTheForest.dir/build
+.PHONY : BladeOfTheForest/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BladeForest.dir/build.make CMakeFiles/BladeForest.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BladeOfTheForest.dir/build.make CMakeFiles/BladeOfTheForest.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -142,7 +142,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BladeForest.dir/build.make CMakeFiles/BladeForest.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BladeOfTheForest.dir/build.make CMakeFiles/BladeOfTheForest.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,7 +150,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BladeForest.dir/build.make CMakeFiles/BladeForest.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BladeOfTheForest.dir/build.make CMakeFiles/BladeOfTheForest.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... BladeForest"
+	@echo "... BladeOfTheForest"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

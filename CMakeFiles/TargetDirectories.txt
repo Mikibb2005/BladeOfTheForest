@@ -1,0 +1,3 @@
+/home/miki/BladeForest/CMakeFiles/BladeForest.dir
+/home/miki/BladeForest/CMakeFiles/edit_cache.dir
+/home/miki/BladeForest/CMakeFiles/rebuild_cache.dir
