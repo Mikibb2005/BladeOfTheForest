@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/BladeOfTheForest.dir/src/main.cpp.o -o BladeOfTheForest  /usr/lib/x86_64-linux-gnu/libSDL2.so -lSDL2_image 
+/usr/bin/g++ -g CMakeFiles/BladeOfTheForest.dir/src/main.cpp.o -o BladeOfTheForest  -lSDL2 -lSDL2_image -lSDL2 -lSDL2_ttf -lSDL2 -lSDL2_image -lSDL2_ttf 

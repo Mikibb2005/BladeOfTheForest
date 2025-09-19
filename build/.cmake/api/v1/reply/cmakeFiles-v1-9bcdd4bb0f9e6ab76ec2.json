@@ -127,35 +127,19 @@
 			"path" : "/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
+			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config-version.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake"
+			"path" : "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/usr/share/cmake-3.28/Modules/FeatureSummary.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/SDL2_image/sdl2_image-config-version.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/SDL2_image/sdl2_image-config.cmake"
+			"path" : "/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/usr/share/cmake-3.28/Modules/FeatureSummary.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

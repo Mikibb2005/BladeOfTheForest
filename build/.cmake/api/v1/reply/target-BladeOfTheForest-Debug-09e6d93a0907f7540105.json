@@ -26,25 +26,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 30,
+				"line" : 27,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 9,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 29,
+				"line" : 21,
 				"parent" : 0
 			}
 		]
@@ -62,12 +56,31 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/miki/BladeForest/include"
+					"path" : "/usr/include/SDL2"
 				},
 				{
-					"backtrace" : 4,
-					"isSystem" : true,
-					"path" : "/usr/include/SDL2"
+					"backtrace" : 3,
+					"path" : "/usr/include/libpng16"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/usr/include/webp"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/usr/include/harfbuzz"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/usr/include/freetype2"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/usr/include/glib-2.0"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/usr/lib/x86_64-linux-gnu/glib-2.0/include"
 				}
 			],
 			"language" : "CXX",
@@ -100,12 +113,37 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libSDL2.so",
+				"fragment" : "-lSDL2",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
 				"fragment" : "-lSDL2_image",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lSDL2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lSDL2_ttf",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lSDL2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lSDL2_image",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lSDL2_ttf",
 				"role" : "libraries"
 			}
 		],

@@ -1,4 +1,4 @@
-CMakeFiles/BladeOfTheForest.dir/src/main.cpp.o: \
+CMakeFiles/MiJuego.dir/src/main.cpp.o: \
  /home/miki/BladeForest/src/main.cpp /usr/include/stdc-predef.h \
  /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
  /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
